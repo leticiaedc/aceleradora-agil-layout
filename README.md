@@ -9,6 +9,7 @@ A aplicação de Lista de Tarefas foi desenvolvida utilizando HTML, CSS e JavaSc
 ## Layout Web 
 <a href="https://leticiaedc.github.io/aceleradora-agil-layout/">Clique aqui</a> para conferir o layout da Lista de Tarefas. 
 
+*Contém informações fictícias. 
 <img src="img/screenshot-to-do.png" />
 <img src="img/screenshot-editar.png" />
 
