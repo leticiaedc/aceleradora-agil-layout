@@ -4,14 +4,16 @@ Repositório referente à resolução de um desafio proposto pela Aceleradora Á
 Trata-se da criação de um layout interativo e implementação de funcionalidades para uma To-Do List.
 
 ## Descrição do Projeto
-A aplicação de Lista de Tarefas foi desenvolvida utilizando HTML, CSS e JavaScript, com manipulação do DOM e integração com o Local Storage para armazenamento de dados.
+A aplicação de Lista de Tarefas foi desenvolvida utilizando HTML, CSS e JavaScript, com manipulação do DOM, conceitos de responsividade e integração com o Local Storage para armazenamento de dados.
 
-## Layout Web 
+## Layout Responsivo 
 <a href="https://leticiaedc.github.io/aceleradora-agil-layout/">Clique aqui</a> para conferir o layout da Lista de Tarefas. 
 
 *Contém informações fictícias. 
 <img src="img/screenshot-to-do.png" />
 <img src="img/screenshot-editar.png" />
+<img src="img/screenshot-to-do-1000px.png" width="60%" align="left" /> 
+<img src="img/screenshot-to-do-500px.png" width="40%" />
 
 ## Recursos Principais
 1. <b>Adicionar tarefas:</b> Permite aos usuários adicionar tarefas de forma intuitiva através de campos de entrada. Ao submeter uma nova tarefa, ela é instantaneamente exibida na lista, conforme o período desejado (Dia ou Noite).

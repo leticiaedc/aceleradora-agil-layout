@@ -22,8 +22,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 0%;
+  position: fixed;
+  bottom: 0px;
   background: rgb(235, 148, 37);
   background: linear-gradient(
     90deg,
@@ -53,13 +53,14 @@ footer a:hover {
 /* MENU */
 nav {
   width: 20vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
   margin-right: 20px;
-  padding: 20px 20px 10px;
+  padding: 20px 20px 40px;
   box-shadow: 0 0 10px 1px #212621;
   background: rgb(235, 148, 37);
   background: linear-gradient(
@@ -68,7 +69,6 @@ nav {
     rgba(232, 15, 93, 1) 100%
   );
   text-align: center;
-
 }
 
 nav img {
@@ -229,6 +229,7 @@ button i {
   justify-content: space-between;
   gap: 50px;
   margin-right: 20px;
+  padding-bottom: 50px;
 }
 
 #list-tasks-day, #list-tasks-night {
@@ -334,4 +335,103 @@ button:hover > i {
 #edit-btn-cancel:hover {
   border: 2px solid rgba(235, 148, 37, 1);
   font-weight: 600;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+  nav h2 {
+    font-size: 22px;
+  }
+  nav p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .container-table {
+    gap: 30px;
+  }
+  #list-tasks-day, #list-tasks-night {
+    width: 380px;
+  }
+}
+
+@media (max-width: 1000px) {
+  nav {
+    width: 30vw;
+  }
+  nav h2 {
+    font-size: 24px;
+  }
+  nav p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .container-table {
+    flex-direction: column;
+    gap: 50px;
+  }
+  #list-tasks-day, #list-tasks-night {
+    width: 400px;
+    min-height: 150px;
+  }
+  #edit-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    width: 30vw;
+  }
+  nav h2 {
+    font-size: 22px;
+  }
+  nav p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #form-task {
+    width: 50vw;
+  }
+  #form-task > .form-control {
+    flex-direction: column;
+  }
+  #task-day, #task-night {
+    width: 30%;
+    align-self: center;
+    padding: 5px 40px;
+  }
+  #list-tasks-day, #list-tasks-night {
+    width: 300px;
+    min-height: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+
+  nav {
+    height: 5vh;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(235, 148, 37);
+    background: linear-gradient(
+      90deg,
+      rgba(235, 148, 37, 1) 10%,
+      rgba(232, 15, 93, 1) 100%
+    );
+  }
+
+  nav > h2, nav > p, nav > .menu {
+    display: none
+  }
+
+  nav > img {
+    width: 20%;
+  }
 }

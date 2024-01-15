@@ -60,7 +60,7 @@ const salvarTarefa = (text, done = 0, save = 1, periodo) => {
 
   tarefaInput.value = ""; 
 
-  tarefaInput.focus();
+  // tarefaInput.focus();
 };
 
 // alterna formulário de inclusão e edição de tarefa
