@@ -12,8 +12,8 @@ A aplicação de Lista de Tarefas foi desenvolvida utilizando HTML, CSS e JavaSc
 *Contém informações fictícias. 
 <img src="img/screenshot-to-do.png" />
 <img src="img/screenshot-editar.png" />
-<img src="img/screenshot-to-do-1000px.png" width="60%" align="left" /> 
-<img src="img/screenshot-to-do-500px.png" width="40%" />
+<img src="img/screenshot-to-do-1000px.png" width="50%" align="left" /> 
+<img src="img/screenshot-to-do-500px.png" width="35%" />
 
 ## Recursos Principais
 1. <b>Adicionar tarefas:</b> Permite aos usuários adicionar tarefas de forma intuitiva através de campos de entrada. Ao submeter uma nova tarefa, ela é instantaneamente exibida na lista, conforme o período desejado (Dia ou Noite).
